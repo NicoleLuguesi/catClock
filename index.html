@@ -1,0 +1,59 @@
+<!--
+  Make 3 different size headers, ex H1, H4 last header is a working clock
+
+  2 pictures under clock with saying 
+
+  drop down - 3 drop downs reflecting time
+
+  interactive button that switches from one text to another upon being clicked
+
+  footer - made by Nicole
+-->
+<!---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Clock</title>
+</head>
+<body>
+  <div class="page">
+  <h1>CAT CLOCK</h1>
+
+  <h4> What time is it ?<br>
+    <span id="displayClock">Clock Goes Here</span>
+  </h4>
+
+  <img id="whiteCatImage" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2016/10_October/persians/Persian+Cat+Facts+History+Personality+and+Care+_+ASPCA+Pet+Health+Insurance+_+white+Persian+cat+resting+on+a+brown+sofa-min.jpg" alt="whiteCat">
+
+ set Wake Up Time
+ <select id="wakeUpSelector">
+   <option value="5">5 AM - 6AM</option>
+   <option value="6">6 AM - 7AM</option>
+   <option value="7">7 AM - 8AM</option>
+   <option value="8">8 AM - 9AM</option>
+   <option value="9">10 AM - 11AM</option>
+</select>
+<br>
+set Nap Time
+<select id="napTimeSelector">
+  <option value="7">7 PM - 8PM</option>
+  <option value="8">8 PM - 9PM</option>
+  <option value="9">9 PM - 10PM</option>
+  <option value="10">10 PM - 11PM</option>
+  <option value="11">11 PM - 12PM</option>
+</select>
+<br>
+
+<button id="bedTimeButton">Take a Nap</button>
+
+  </div>
+
+  <script
+    type="text/javascript"
+    src="app.js">
+  </script>
+  
+</body>
+</html>
